@@ -12,6 +12,14 @@
 		CE2F0D0521ACD97500ED7D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2F0D0321ACD97500ED7D4D /* Main.storyboard */; };
 		CE2F0D0721ACD97600ED7D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2F0D0621ACD97600ED7D4D /* Assets.xcassets */; };
 		CE2F0D0A21ACD97600ED7D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2F0D0821ACD97600ED7D4D /* LaunchScreen.storyboard */; };
+		CE2F0D1221ACDDA100ED7D4D /* MainTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0D1121ACDDA100ED7D4D /* MainTabbarController.swift */; };
+		CE2F0D1421ACDE4C00ED7D4D /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0D1321ACDE4C00ED7D4D /* HomeController.swift */; };
+		CE2F0D1621ACDE8900ED7D4D /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0D1521ACDE8900ED7D4D /* SearchController.swift */; };
+		CE2F0D1821ACDECE00ED7D4D /* MiddleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0D1721ACDECE00ED7D4D /* MiddleController.swift */; };
+		CE2F0D1A21ACDEFB00ED7D4D /* LikeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0D1921ACDEFB00ED7D4D /* LikeController.swift */; };
+		CE2F0D1C21ACDF4000ED7D4D /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0D1B21ACDF4000ED7D4D /* ProfileController.swift */; };
+		CE2F0D1E21AD2E1200ED7D4D /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0D1D21AD2E1200ED7D4D /* LoginController.swift */; };
+		CE2F0D2021AE56E800ED7D4D /* SomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F0D1F21AE56E800ED7D4D /* SomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		CE2F0D0621ACD97600ED7D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE2F0D0921ACD97600ED7D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE2F0D0B21ACD97600ED7D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2F0D1121ACDDA100ED7D4D /* MainTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarController.swift; sourceTree = "<group>"; };
+		CE2F0D1321ACDE4C00ED7D4D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		CE2F0D1521ACDE8900ED7D4D /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		CE2F0D1721ACDECE00ED7D4D /* MiddleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleController.swift; sourceTree = "<group>"; };
+		CE2F0D1921ACDEFB00ED7D4D /* LikeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeController.swift; sourceTree = "<group>"; };
+		CE2F0D1B21ACDF4000ED7D4D /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		CE2F0D1D21AD2E1200ED7D4D /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CE2F0D1F21AE56E800ED7D4D /* SomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +72,18 @@
 			children = (
 				CE2F0CFF21ACD97500ED7D4D /* AppDelegate.swift */,
 				CE2F0D0121ACD97500ED7D4D /* ViewController.swift */,
+				CE2F0D1121ACDDA100ED7D4D /* MainTabbarController.swift */,
+				CE2F0D1321ACDE4C00ED7D4D /* HomeController.swift */,
+				CE2F0D1521ACDE8900ED7D4D /* SearchController.swift */,
+				CE2F0D1721ACDECE00ED7D4D /* MiddleController.swift */,
+				CE2F0D1921ACDEFB00ED7D4D /* LikeController.swift */,
+				CE2F0D1B21ACDF4000ED7D4D /* ProfileController.swift */,
 				CE2F0D0321ACD97500ED7D4D /* Main.storyboard */,
 				CE2F0D0621ACD97600ED7D4D /* Assets.xcassets */,
 				CE2F0D0821ACD97600ED7D4D /* LaunchScreen.storyboard */,
 				CE2F0D0B21ACD97600ED7D4D /* Info.plist */,
+				CE2F0D1D21AD2E1200ED7D4D /* LoginController.swift */,
+				CE2F0D1F21AE56E800ED7D4D /* SomeController.swift */,
 			);
 			path = CustomTabbarController;
 			sourceTree = "<group>";
@@ -135,8 +159,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2F0D1A21ACDEFB00ED7D4D /* LikeController.swift in Sources */,
+				CE2F0D1421ACDE4C00ED7D4D /* HomeController.swift in Sources */,
+				CE2F0D1621ACDE8900ED7D4D /* SearchController.swift in Sources */,
+				CE2F0D1821ACDECE00ED7D4D /* MiddleController.swift in Sources */,
+				CE2F0D1E21AD2E1200ED7D4D /* LoginController.swift in Sources */,
 				CE2F0D0221ACD97500ED7D4D /* ViewController.swift in Sources */,
 				CE2F0D0021ACD97500ED7D4D /* AppDelegate.swift in Sources */,
+				CE2F0D1221ACDDA100ED7D4D /* MainTabbarController.swift in Sources */,
+				CE2F0D1C21ACDF4000ED7D4D /* ProfileController.swift in Sources */,
+				CE2F0D2021AE56E800ED7D4D /* SomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5JCS9BP69;
 				INFOPLIST_FILE = CustomTabbarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +336,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M5JCS9BP69;
 				INFOPLIST_FILE = CustomTabbarController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
